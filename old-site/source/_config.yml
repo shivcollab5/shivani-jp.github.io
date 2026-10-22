@@ -170,6 +170,7 @@ exclude:
   - package.json
   - tmp
   - vendor
+  - old-site
 keep_files:
   - .git
   - .svn

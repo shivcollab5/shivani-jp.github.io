@@ -1,0 +1,2 @@
+(function(){var r=document.documentElement;try{var t=localStorage.getItem("theme");if(t)r.setAttribute("data-theme",t)}catch(e){}
+var b=document.getElementById("tg");if(b)b.onclick=function(){var d=r.getAttribute("data-theme")==="dark"||(!r.getAttribute("data-theme")&&matchMedia("(prefers-color-scheme:dark)").matches);var n=d?"light":"dark";r.setAttribute("data-theme",n);try{localStorage.setItem("theme",n)}catch(e){}}})();
